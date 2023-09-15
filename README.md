@@ -27,7 +27,7 @@ Before you begin, ensure you have met the following requirements:
 Install dependencies:
 
 npm install
-   cd movie-discovery-app
+   cd moviebox
 
 ## Configuration
 Create a .env file in the project root.

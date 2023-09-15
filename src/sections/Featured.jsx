@@ -11,7 +11,7 @@ export const Featured = () => {
     const fetchMovies = async () => {
       try {
         const response = await axios.get(
-          `https://api.themoviedb.org/3/trending/movie/week?api_key=19afa12dc59022e933d3dbd478faf796&language=en-US&page=1`
+          `https://api.themoviedb.org/3/trending/movie/week?api_key=${apiKey}&language=en-US&page=1`
         );
         const movieData = response.data.results;
 

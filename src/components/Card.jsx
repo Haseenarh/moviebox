@@ -2,7 +2,7 @@ import axios from "axios";
 import  { useEffect, useState } from "react";
 import {AiFillHeart} from "react-icons/ai"
 
-import imdb from "../assets/imdd.svg"
+import imdb from "../assets/imdb.svg"
 import Favourite from "../assets/Favorite.svg"
 import { Link } from "react-router-dom";
 
