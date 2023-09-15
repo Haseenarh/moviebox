@@ -11,9 +11,9 @@ export const Landing = () => {
   useEffect(() => {
     const fetchRandomMovie = async () => {
       try {
-        const apiKey = import.meta.env.VITE_VITE_TMDB_API_KEY; 
+        const apiKey = import.meta.env.VITE_REACT_APP_API_KEY; 
         const response = await axios.get(
-          `https://api.themoviedb.org/3/trending/movie/day?api_key=${apiKey}`
+          `https://api.themoviedb.org/3/trending/movie/week?api_key=${apiKey}`
         );
         const popularMovies = response.data.results;
         const randomMovie =
@@ -46,6 +46,7 @@ export const Landing = () => {
     width: "100vw",
     height: "100vh",
     transition: "background-image 2s",
+   
   };
 
   return (

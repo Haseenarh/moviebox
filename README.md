@@ -34,7 +34,7 @@ Create a .env file in the project root.
 
 Add your TMDb API key:
 
-VITE_TMDB_API_KEY=your_VITE_TMDB_API_KEY
+REACT_APP_TMDB_API_KEY=your-api-key
 
 ## Running the App
 To start the app, run the following command:

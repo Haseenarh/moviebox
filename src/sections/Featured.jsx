@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import Card from "../components/Card";
 
-const apiKey = import.meta.env.VITE_TMDB_API_KEY;
+const apiKey = import.meta.env.VITE_REACT_APP_API_KEY;
 
 export const Featured = () => {
   const [movies, setMovies] = useState([]);

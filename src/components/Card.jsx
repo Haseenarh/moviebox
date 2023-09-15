@@ -6,7 +6,7 @@ import imdb from "../assets/imdd.svg"
 import Favourite from "../assets/Favorite.svg"
 import { Link } from "react-router-dom";
 
-const apiKey =  import.meta.env.VITE_TMDB_API_KEY;
+const apiKey =  import.meta.env.VITE_REACT_APP_API_KEY;
 
 const Card = ({ movie }) => {
   const [isclicked , setIsClicked] = useState(false);

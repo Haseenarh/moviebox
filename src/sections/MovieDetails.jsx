@@ -11,7 +11,7 @@ import { Genres } from "../components/Card";
 import { FloatingMenu } from "../components/FloatingMenu";
 
 
-const apiKey = import.meta.env.VITE_TMDB_API_KEY;
+const apiKey = import.meta.env.VITE_REACT_APP_API_KEY;
 
 const MovieDetail = () => {
 
