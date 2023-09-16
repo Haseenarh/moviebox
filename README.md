@@ -30,11 +30,7 @@ npm install
    cd moviebox
 
 ## Configuration
-Create a .env file in the project root.
-
-Add your TMDb API key:
-
-REACT_APP_TMDB_API_KEY=your-api-key
+Add your bearer token to the constant.js file
 
 ## Running the App
 To start the app, run the following command:
@@ -45,5 +41,3 @@ npm start
 Browse movies.
 Click on a movie to view its details, including the title, release date, and overview.
 
-
-## Demo Link
